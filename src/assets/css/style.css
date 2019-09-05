@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+html, body {
+    margin: 0 !important;
+    font-family: 'Lato', sans-serif;
+}
+/*scrollbar*/
+::-webkit-scrollbar-button {
+    display: block;
+    height: 13px;
+    border-radius: 0;
+    background-color: #AAA;
+}
+a {
+    color: #635f5f;
+}
+a:hover {
+    text-decoration: none !important;
+    opacity: 0.9;
+    color: #000;
+}
+::-webkit-scrollbar-button:hover {
+    background-color: #AAA;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #CCC;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #CCC;
+}
+::-webkit-scrollbar-track {
+    background-color: #efefef;
+}
+::-webkit-scrollbar-track:hover {
+    background-color: #CCC;
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+.cursor:hover {
+    cursor: pointer !important;
+    transition: all 0.5s;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+/**/
+.br-0{
+    border-radius: 0!important;
+}
+/*backgrounds*/
+.bg-auth {
+    background: url("https://www.azamaraclubcruises.com/sites/default/files/heros/qs10a009.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.bg-top-home{
+    background: url("../images/bg_top_home.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    background-attachment: fixed;
+}
+.bg-transparent-dark {
+    background: rgba(0, 0, 0, 0.69) !important;
+    color: #c3c3c3 !important;
+}
+.bg-transparent-dark a {
+    color: #c3c3c3;
+}
+.bg-top-classifieds {
+    background: url("../images/bg_top_classifieds.jpg");
+    height: 500px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-account{
+    background: url("../images/bg_account.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+/*end backgrounds*/
+/*home*/
+.top-home-text{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgba(255,255,255,.8);
+}
+.input-top-home{
+    height: 48px!important;
+    font-size: 14px!important;
+}.search-home {
+     background: #fff;
+     padding: 25px 25px 20px 25px;
+     border-radius: 5px;
+ }/*forms*/
+.input-dark {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    border-bottom: 2px solid green !important;
+}
+#btn-radios-1{
+    width: 100%!important;
+}
+/*end forms*/
+/*colors*/
+.color-r{
+    color: #c80d09;
+}
+.color-f{
+    color: #cbcbcb;
+}
+/*end colors*/
+.annotation{
+    font-size: 13px;
+}
+.top-title-page h1 {
+    height: 200px;
+    line-height: 200px;
+    color: #f7f7ff;
+    letter-spacing: 1px;
+}.title-content-page {
+     font-size: 20px;
+     color: #5b5b5b;
+     line-height: 24px;
+     text-transform: uppercase;
+     padding: 20px 0;
+ }
+ /*classifieds*/
+.classifieds .photo img {
+    width: 100%;
+}.classifieds .title {
+     overflow: hidden;
+     height: 35px;
+     padding: 5px 0;
+ }.classifieds {
+      border: 1px solid #d6d2d2;
+      border-radius: 2px;
+      padding: 2px;
+      margin-bottom: 8px;
+  }.classifieds .footer {
+       border-top: 1px solid #d6d2d2c7;
+       color: #524e4e;
+       padding: 1px 0;
+   }.ad-title {
+        padding: 5px 0;
+        border-top: 1px solid #e8e8e859;
+        border-bottom: 1px solid #f7f7f7;
+        margin: 10px 0;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #716c6c;
+    }.ad-s {
+         padding: 5px 0 15px;
+         margin-bottom: 10px;
+         color: #9c9c9c;
+         font-size: 14px;
+         border-bottom: 1px solid #f7f7f7;
+     }.ad-body {
+          color: #636363;
+          text-align: justify;
+          padding-bottom: 15px;
+          border-bottom: 1px solid #f7f7f7;
+      }.seller .avatar img {
+           width: 100%;
+           border-radius: 50%;
+           border: 1px solid #d4d4d4;
+           padding: 4px;
+       }.seller .avatar {
+            margin: 20px 0 5px;
+        }.seller .name {
+             text-align: center;
+             font-size: 19px;
+             color: #8e8787;
+             font-weight: 600;
+             letter-spacing: 1px;
+             height: 30px;
+             overflow: hidden;
+         }.sidebar-ad {
+              border: 1px solid #dddddd;
+              border-radius: 3px;
+          }.seller a {
+               display: block;
+               text-align: center;
+               text-transform: uppercase;
+               font-size: 11px;
+               margin: 10px 0;
+               letter-spacing: 1px;
+               color: #3aa2c6;
+           }.seller {
+                border-bottom: 1px solid #dddddd;
+            }.seller .created {
+                 text-align: center;
+                 font-size: 12px;
+                 color: #bdbaba;
+             }.sidebar-ad .ad {
+                  border-bottom: 1px solid #dddddd;
+                  padding: 5px 0;
+                  font-size: 12px;
+                  color: gray;
+              }.sidebar-ad .ad .title {
+                   text-transform: uppercase;
+                   font-weight: 600;
+                   letter-spacing: 1px;
+                   padding: 0 0 5px 3px;
+                   border-bottom: 1px dotted #e2e2e2;
+                   margin-bottom: 4px;
+               }.seller .avatar .follow {
+                    position: absolute;
+                    color: gray;
+                    font-size: 30px;
+                    background: #0000002e;
+                    border-radius: 50%;
+                }.seller .avatar {
+                     position: relative;
+                 }.negotiate {
+                      font-size: 11px;
+                      margin-top: -4px;
+                      color: #7081a2;
+                  }.type_acc {
+                       text-align: center;
+                       color: #f56d33;
+                       text-transform: uppercase;
+                       font-size: 8px;
+                       font-weight: 600;
+                       letter-spacing: 1px;
+                       margin-top: 2px;
+                   }.seller .name a {
+                        color: #716e6e;
+                        font-size: 14px;
+                    }
+/*end classifieds*/
+
+.ad-photo{
+    margin-bottom: -40px;
+}
+/*account*/
+.user-header-account .avatar img {
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 1px;
+    margin-right: 10px;
+}.user-header-account .avatar span {
+     font-weight: 600;
+     color: gray;
+     letter-spacing: 1px;
+     font-size: 14px;
+ }.user-header-account {
+      border-bottom: 1px solid #d8d5d5;
+      padding-bottom: 15px;
+  }.content-account {
+       border-top: 1px solid #d8d5d5;
+       margin-top: 5px;
+       padding-top: 5px;
+   }.title-page-account {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #7b7979;
+        font-size: 12px;
+        padding: 10px 0;
+    } input#price {
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+      }select#currency {
+           border-top-left-radius: 0px;
+           border-bottom-left-radius: 0px;
+           border-left: 0;
+       }
+/*end account*/
+/*profile*/
+.profile .header .avatar img {
+    width: 100%;
+    border-radius: 50%;
+}.profile .header .name {
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 1px;
+     font-size: 14px;
+     border-bottom: 1px solid #dfdfdf;
+     padding-bottom: 2px;
+     color: #615c5c;
+ }.profile .header .avatar {
+      padding-right: 5px;
+      border-right: 1px solid #dfdfdf;
+  }.profile .header {
+       padding-bottom: 10px;
+       border-bottom: 1px solid #dfdfdf;
+   }.profile .header .statistics {
+        font-size: 13px;
+        color: #5f5f5f;
+    }.profile .header .statistics div {
+         padding: 3px 0;
+     }.rating .avatar img {
+          width: 100%;
+          border-radius: 50%;
+      }.rating {
+           border: 1px solid #dfdfdf;
+           min-height: 115px;
+           border-radius: 3px;
+           margin-bottom: 5px;
+       }.rating .avatar {
+            padding: 10px;
+            border-right: 1px solid #dfdfdf;
+        }.rating .header {
+             font-size: 12px;
+             text-transform: uppercase;
+             font-weight: 600;
+             letter-spacing: 1px;
+             color: #636060;
+             padding: 7px 0;
+         }.stars span {
+              color: #d0ac4e;
+          }.stars b {
+               color: #949292;
+               font-size: 13px;
+           }.rating .content p {
+                color: #7b7878;
+                font-size: 13px;
+                text-align: justify;
+                padding: 0 5px;
+            }.rating .avatar {
+                 display: block;
+             }
+/*end profile*/
